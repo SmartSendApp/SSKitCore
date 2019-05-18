@@ -2,6 +2,8 @@
 
 SSKit is a iOS AR Measurement tool you can use in your app to measure volume of objects. 
 
+Dont forget to download SSKitCore.zip from [releases](https://github.com/SmartSendApp/SSKitCore/releases) and unzip in example project. 
+
 ## Implemantation Guide
 
 1. Download the lastest SDK from [releases](https://github.com/SmartSendApp/SSKitCore/releases)
@@ -36,7 +38,8 @@ extension ViewController: SSViewControllerDelegate {
 }
 #endif
 ```
-9. Make sure to run this on real device not simulator
+9. Dont forget to add Camera usage description to your info.plist
+10. Make sure to run this on real device not simulator
 
 # Releasing the app
 
